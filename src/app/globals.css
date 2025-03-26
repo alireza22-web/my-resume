@@ -1,26 +1,50 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base{
+  
+  html::selection{
+    background-color: black;
+    color: yellow;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  html.dark::selection{
+    background-color: yellow;
+    color: black;
+  }
+  .h_title{
+    animation: h-title 1.2s ease-in-out;
+  }
+  .p_title{
+    animation: p-title 1.7s .2s forwards ease-in-out;
+  }
+  .nav-animate{
+    animation: nav 1.3s ease-in-out ;
+  }
+  @keyframes h-title {
+    0%{
+      transform: translateY(-60px);
+      opacity: .2;
+    }100%{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes p-title {
+    0%{
+      transform: translateX(-60px);
+      opacity: 0;
+    }100%{
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes nav {
+    0%{
+      transform: translateY(-100%);
+      opacity: 0;
+    }100%{
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 }
