@@ -2,12 +2,12 @@ import {Poppins } from "next/font/google";
 import "./globals.css";
 
 
-const poppins = Poppins({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-poppins',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
-});
+// const poppins = Poppins({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   variable: '--font-poppins',
+//   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+// });
 
 
 export const metadata = {
@@ -17,10 +17,11 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  // ${poppins.variable}
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} antialiased`}
+        className={` antialiased`}
       >
         {children}
       </body>

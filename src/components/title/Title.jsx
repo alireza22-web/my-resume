@@ -8,7 +8,7 @@ export const Title = ()=>{
         <div className="max-md:block mx-auto hidden w-[300px]">
           <img src="image/Programmer-bro.svg" className="" alt="" />
         </div>
-        <div className="py-52 max-xl:py-32 max-lg:py-16 max-md:py-4 w-1/2 max-md:w-fit max-md:px-4">
+        <div className="py-52 max-xl:py-32 max-lg:py-16 max-md:pt-4 max-md:pb-12 w-1/2 max-md:w-fit max-md:px-4">
           <h1 className="text-6xl mb-3 h_title max-lg:text-4xl max-md:text-3xl max-sm:text-2xl">
             I'm <span className="dark:text-yellow-400 font-semibold text-gray-600">Alireza Khoondabi</span> 
           </h1>

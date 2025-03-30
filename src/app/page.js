@@ -1,5 +1,6 @@
 import DarkModeToggle from "@/components/darkToggle/DarkToggle";
 import { Navbar } from "@/components/navbar/Navbar";
+import { Skille } from "@/components/skille/Skille";
 import { Title } from "@/components/title/Title";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div className="dark:bg-slate-800 min-h-screen dark:text-white bg-neutral-200 text-black relative z-20">
       <Navbar/>
       <Title/>
+      <Skille/>
     </div>
   );
 }
