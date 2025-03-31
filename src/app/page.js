@@ -1,4 +1,5 @@
 import DarkModeToggle from "@/components/darkToggle/DarkToggle";
+import { Footer } from "@/components/footer/footer";
 import { Navbar } from "@/components/navbar/Navbar";
 import { Skille } from "@/components/skille/Skille";
 import { Title } from "@/components/title/Title";
@@ -9,6 +10,26 @@ export default function Home() {
       <Navbar/>
       <Title/>
       <Skille/>
+      <Footer/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>v
     </div>
   );
 }
