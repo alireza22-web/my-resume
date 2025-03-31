@@ -11,25 +11,7 @@ export default function Home() {
       <Title/>
       <Skille/>
       <Footer/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>v
+      
     </div>
   );
 }

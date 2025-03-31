@@ -1,7 +1,7 @@
 export const Footer = ()=>{
   return ( 
     <div className="shadow-md bg-neutral-300 dark:bg-slate-900 dark:text-yellow-600">
-      <footer className="p-8 flex justify-between items-center container mx-auto">
+      <footer className="p-8 flex justify-between items-center container mx-auto max-md:flex-col gap-y-6">
       <div>
         <p>© copyright Alireza Khoondabi</p>
       </div>
